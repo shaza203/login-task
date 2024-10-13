@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg login-form">
+        <div class="container">
+          <span class="navbar-brand text-uppercase text-white fs-4" href="#">smart login</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <button type="button" onclick="logOut()" class="btn btn-outline-warning w-100">LogOut</button>
+                </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container my-5 text-center">
+      <div class="login-form m-auto w-75 p-5">
+        <h1 id="userwelcome"></h1>
+      </div>
+    </div>
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

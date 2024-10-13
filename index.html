@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container my-5 text-center">
+        <div class="login-form m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+            <input type="email" id="signinEmail" class="form-control my-3 text-white" oninput="validation(emailRegex,this)" placeholder="Enter your email">
+            <input type="password" id="signinPassword" class="form-control my-3 text-white" oninput="validation(passwordRegex,this)" placeholder="Enter your password">
+            <p id="invalidMsg"></p>
+            <button class="btn btn-outline-info w-100 my-3" onclick="Login()" type="button">Login</button>
+            <p class="text-white">Don't have an account? <a href="./signup.html" class="text-white text-decoration-none">Sign Up</a></p>
+        </div>
+    </div>
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

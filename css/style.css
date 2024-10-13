@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #24353f;
+}
+.login-form {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1 {
+  color: #17a2b8;
+}
+input {
+  background-color: transparent !important;
+}
+input::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+input:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.btn:hover {
+  color: #fff;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+.btn-outline-warning {
+  --bs-btn-color: rgb(182, 182, 182);
+}
+.navbar-brand {
+  cursor: pointer;
+}
